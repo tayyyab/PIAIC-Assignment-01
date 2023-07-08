@@ -13,3 +13,6 @@ let user : object = {
 };
 
 console.log(user);
+
+// return undefined
+// console.log(mountains[4]); 

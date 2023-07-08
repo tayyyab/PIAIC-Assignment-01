@@ -9,3 +9,4 @@ var user = {
     "designation": "Developer"
 };
 console.log(user);
+console.log(mountains[4]);
