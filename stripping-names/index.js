@@ -1,0 +1,12 @@
+var name_1 = "  Muhammad Ali \t";
+var name_2 = "\n Tayyab    ";
+var name_3 = "\t  Zia         ";
+console.log(name_1);
+console.log(name_2);
+console.log(name_3);
+var name_1_striped = name_1.trim();
+var name_2_striped = name_2.trim();
+var name_3_striped = name_3.trim();
+console.log(name_1_striped);
+console.log(name_2_striped);
+console.log(name_3_striped);
