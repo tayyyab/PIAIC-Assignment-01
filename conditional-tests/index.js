@@ -21,7 +21,7 @@ var cars = [
 console.log("cars.indexOf('Aulto') : ", cars.indexOf('Aulto') > 0);
 console.log("-1 > 0 : ", -1 > 0);
 console.log("0 > 0 : ", 0 >= 0);
-if (cars.indexOf('Aulto') > -1) {
+if (cars.indexOf('Aulto') >= 0) {
     console.log('Aulto is there.');
 }
 else {
