@@ -1,1 +1,1 @@
-console.log("Lao Tzu one said, \"A journey of a thousand miles begins with a single step.\"");
+console.log("Lao Tzu ones said, \"A journey of a thousand miles begins with a single step.\"");
