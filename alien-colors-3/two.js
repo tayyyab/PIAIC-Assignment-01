@@ -1,4 +1,5 @@
-var alien_color_2 = 'yellow';
+"use strict";
+let alien_color_2 = 'yellow';
 if (alien_color_2 == 'green') {
     console.log('Player just earned 5 points for shooting the alien.');
 }

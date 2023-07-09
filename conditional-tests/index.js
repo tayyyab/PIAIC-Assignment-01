@@ -1,4 +1,5 @@
-var car = 'subaru';
+"use strict";
+let car = 'subaru';
 if (car == 'subaru') {
     console.log("Is car == 'subaru' | predict True.");
 }
@@ -14,7 +15,7 @@ if (car.charAt(0) == 's') {
 if (car.charAt(0) == 's' && car.charAt(car.length - 1) == 'u') {
     console.log("Car name start with s and end with u.");
 }
-var cars = [
+let cars = [
     'Civic',
     'Revo'
 ];

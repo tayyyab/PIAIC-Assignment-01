@@ -1,12 +1,14 @@
-var mountains = [];
+"use strict";
+let mountains = [];
 mountains.push("Mount Everest");
 mountains.push("K2");
 mountains.push("Aconcagua");
 console.log(mountains);
-var user = {
+let user = {
     "name": "Tayyab",
     "age": 27,
     "designation": "Developer"
 };
 console.log(user);
-console.log(mountains[4]);
+// return undefined
+// console.log(mountains[4]); 

@@ -1,5 +1,6 @@
-var alien_color = 'green';
-var points = 0;
+"use strict";
+let alien_color = 'green';
+let points = 0;
 if (alien_color == 'green') {
     console.log('Player just earned 5 points.');
     points += 5;

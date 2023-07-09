@@ -1,4 +1,5 @@
-var names = [
+"use strict";
+let names = [
     "Amar",
     "Nabeel",
     "Fahad",
