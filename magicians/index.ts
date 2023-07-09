@@ -19,6 +19,17 @@ function make_great(magicians:string[]) {
     }
 }
 
-make_great(magicians);
+function make_great_seprate(magicians:string[]) : string[] {
+    let mages = [...magicians];
+    for (let index = 0; index < mages.length; index++) {
+        mages[index] = 'Great '+ mages[index];
+    }
+
+    return mages;
+}
+
+// make_great(magicians);
+
+console.log(make_great_seprate(magicians));
 
 show_magicians(magicians);
